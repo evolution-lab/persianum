@@ -1,10 +1,14 @@
-# persianum
+# persianum()
 Convert english numbers to persian numbers.
 
 ~~~~js
 const persianum = require('persianum');
 
-console.log(persianum(123));
+persianum(123);
 
-// Outputs: ١٢٣
+// Returns: "١٢٣"
+
+persianum("123asd");
+
+// Returns "١٢٣asd"
 ~~~~
